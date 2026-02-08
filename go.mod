@@ -1,4 +1,4 @@
-module github.com/5rahim/habari
+module github.com/TotallyLegitimateOrg/habari
 
 go 1.23.0
 
