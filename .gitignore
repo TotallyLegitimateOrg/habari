@@ -2,3 +2,4 @@
 .env
 js/main.go
 Makefile
+bin/
