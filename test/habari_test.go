@@ -11,7 +11,7 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/5rahim/habari"
+	"github.com/TotallyLegitimateOrg/habari"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/text/unicode/norm"
 )

@@ -12,7 +12,7 @@
 package main
 
 import (
-	habari "github.com/5rahim/habari"
+	habari "github.com/TotallyLegitimateOrg/habari"
 )
 
 func main() {
@@ -22,7 +22,7 @@ func main() {
 	println(data.Year)            // 2012
 	println(data.SeasonNumber)    // []string{"1", "2"}
 	println(data.VideoResolution) // 1080p
-	
+
 	data = habari.Parse("Jujutsu Kaisen S03E02 One More Time 1080p NF WEB-DL AAC2.0 H 264-VARYG (Jujutsu Kaisen: Shimetsu Kaiyuu - Zenpen, Multi-Subs)")
     println(data.Title) 			// "Jujutsu Kaisen"
     println(data.EpisodeTitle) 		// "One More Time"
