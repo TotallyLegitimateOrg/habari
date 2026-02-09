@@ -15,9 +15,6 @@ func main() {
 	jsonOutput := flag.Bool("json", false, "Output as JSON")
 	flag.Usage = func() {
 		fmt.Fprintf(os.Stderr, "Usage: habari [--json] <filename>\n\n")
-		fmt.Fprintf(os.Stderr, "Parse filenames and extract metadata.\n\n")
-		fmt.Fprintf(os.Stderr, "Flags:\n")
-		flag.PrintDefaults()
 	}
 	flag.Parse()
 
