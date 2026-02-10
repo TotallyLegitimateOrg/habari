@@ -317,7 +317,7 @@ func newKeywordManager() *keywordManager {
 		keywordCatSubtitles,
 		keywordKindStandalone,
 		[]string{"ASS", "BIG5", "DUB", "DUBBED", "HARDSUB", "HARDSUBS", "RAW", "VF",
-			"SOFTSUB", "SOFTSUBS", "SUB", "SUBBED", "SUBTITLED", "MULTISUB", "MULTIAUDIO", "MULTISUBS", "MULTIAUDIOS"},
+			"SOFTSUB", "SOFTSUBS", "SUBBED", "SUBTITLED", "MULTISUB", "MULTIAUDIO", "MULTISUBS", "MULTIAUDIOS"},
 	)
 
 	km.addGroupParts(

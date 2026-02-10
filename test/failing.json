@@ -220,5 +220,34 @@
       "formatted_title": "Accel World - EX01",
       "episode_number": null
     }
+  },
+  {
+    "expected": {
+      "file_name": "One Piece Movie 11 - Film Z [BD][1080p][x264][JPN][SUB]-df68.mkv",
+      "title": "One Piece",
+      "formatted_title": "One Piece Movie 11 Film Z",
+      "anime_type": [
+        "Movie"
+      ],
+      "episode_number": [
+        "11"
+      ],
+      "episode_title": "Film Z",
+      "language": [
+        "JPN"
+      ],
+      "release_group": "df68",
+      "source": [
+        "BD"
+      ],
+      "video_resolution": "1080p",
+      "video_term": [
+        "x264"
+      ],
+      "file_extension": "mkv"
+    },
+    "failing_parts": {
+      "release_group": "SUB"
+    }
   }
 ]
