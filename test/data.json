@@ -6,33 +6,6 @@
     "release_group": "Anime Time"
   },
   {
-    "file_name": "One Piece Movie 11 - Film Z [BD][1080p][x264][JPN][SUB]-df68.mkv",
-    "title": "One Piece",
-    "formatted_title": "One Piece Movie 11 Film Z",
-    "anime_type": [
-      "Movie"
-    ],
-    "episode_number": [
-      "11"
-    ],
-    "episode_title": "Film Z",
-    "language": [
-      "JPN"
-    ],
-    "release_group": "df68",
-    "source": [
-      "BD"
-    ],
-    "video_resolution": "1080p",
-    "video_term": [
-      "x264"
-    ],
-    "subtitles": [
-      "SUB"
-    ],
-    "file_extension": "mkv"
-  },
-  {
     "file_name": "[Thomku] Kill la Kill 01 - 07 Batch [720p][AAC][MP4]",
     "title": "Kill la Kill",
     "formatted_title": "Kill la Kill",
@@ -293,9 +266,6 @@
     "release_group": "kito",
     "source": [
       "DVDRip"
-    ],
-    "subtitles": [
-      "Sub"
     ],
     "language": [
       "Jpn",
@@ -1356,9 +1326,6 @@
     "video_resolution": "1920x1080",
     "video_term": [
       "h264"
-    ],
-    "subtitles": [
-      "Sub"
     ],
     "language": [
       "JP",
@@ -3484,5 +3451,17 @@
     "file_checksum": "A7A5BCFD",
     "file_extension": "mkv",
     "release_group": "TardSubs"
+  },
+  {
+    "file_name": "[Sawada-Sub] ReZero kara Hajimeru Isekai Seikatsu - Hyouketsu no Kizuna - [BD-1080p][FFC52998].mkv",
+    "title": "ReZero kara Hajimeru Isekai Seikatsu - Hyouketsu no Kizuna",
+    "formatted_title": "ReZero kara Hajimeru Isekai Seikatsu - Hyouketsu no Kizuna",
+    "video_resolution": "1080p",
+    "source": [
+      "BD"
+    ],
+    "file_checksum": "FFC52998",
+    "file_extension": "mkv",
+    "release_group": "Sawada-Sub"
   }
 ]
