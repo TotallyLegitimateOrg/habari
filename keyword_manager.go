@@ -310,7 +310,19 @@ func newKeywordManager() *keywordManager {
 		keywordCatReleaseInformation,
 		keywordKindStandalone,
 		[]string{"REMASTER", "REMASTERED", "UNCENSORED", "UNCUT", "TS", "VFR",
-			"WIDESCREEN", "WS", "BATCH", "COMPLETE", "PATCH", "REMUX", "FINAL"},
+			"WIDESCREEN", "WS", "BATCH", "COMPLETE", "PATCH", "REMUX", "FINAL", "REPACK", "PROPER", "EXTENDED"},
+	)
+
+	km.addGroupParts(
+		keywordCatReleaseInformation,
+		[]*keywordParts{
+			{prefix: "DIRECTOR", seqParts: []string{" ", "CUT"}},
+			{prefix: "DIRECTOR'S", seqParts: []string{" ", "CUT"}},
+			{prefix: "DIRECTORS", seqParts: []string{" ", "CUT"}},
+			{prefix: "EXTENDED", seqParts: []string{" ", "CUT"}},
+			{prefix: "EXTENDED", seqParts: []string{"-", "CUT"}},
+			{prefix: "EXTENDED", seqParts: []string{".", "CUT"}},
+		},
 	)
 
 	km.addGroup(

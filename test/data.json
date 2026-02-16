@@ -121,7 +121,8 @@
     "file_checksum": "988DB090",
     "file_extension": "mkv",
     "release_information": [
-      "Uncensored"
+      "Uncensored",
+      "Director's Cut"
     ],
     "release_group": "chibi-Doki",
     "release_version": [
@@ -3463,5 +3464,29 @@
     "file_checksum": "FFC52998",
     "file_extension": "mkv",
     "release_group": "Sawada-Sub"
+  },
+  {
+    "file_name": "[ArAr - Kuroko-subs - Deagosubs] Psycho-Pass New Edit - 03 [Extended Version][BD 1080p x264 FLAC][31ECB0D6].mkv",
+    "title": "Psycho-Pass New Edit",
+    "formatted_title": "Psycho-Pass New Edit",
+    "episode_number": [
+      "03"
+    ],
+    "video_resolution": "1080p",
+    "release_group": "ArAr - Kuroko-subs - Deagosubs",
+    "release_information": [
+      "Extended"
+    ],
+    "source": [
+      "BD"
+    ],
+    "video_term": [
+      "x264"
+    ],
+    "audio_term": [
+      "FLAC"
+    ],
+    "file_checksum": "31ECB0D6",
+    "file_extension": "mkv"
   }
 ]
