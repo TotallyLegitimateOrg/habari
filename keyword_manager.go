@@ -362,7 +362,7 @@ func newKeywordManager() *keywordManager {
 		[]string{"BD", "ASF", "BDRIP", "BLURAY", "BLU-RAY", "DVD", "DVD5", "DVD9",
 			"DVD-R2J", "DVDRIP", "DVD-RIP", "R2DVD", "R2J", "R2JDVD",
 			"R2JDVDRIP", "HDTV", "HDTVRIP", "TVRIP", "TV-RIP",
-			"WEBCAST", "WEBRIP", "NF", "NHK", "CR", "HIDIVE", "AMZN", "AT-X", "MX", "DSNP"},
+			"WEB", "WEBCAST", "WEBRIP", "NF", "NHK", "CR", "HIDIVE", "AMZN", "AT-X", "MX", "DSNP"},
 	)
 
 	km.addGroupParts(
