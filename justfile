@@ -25,3 +25,11 @@ vet:
 # Run tests with coverage
 coverage:
     go test -cover -skip 'TestConversion' ./...
+
+# Build the Python source distribution and platform wheel
+python-build:
+    uv run --python 3.14 --with build python -m build
+
+# Run Python binding tests
+python-test:
+    uv run --python 3.14 --with pytest pytest python/tests

@@ -1,0 +1,16 @@
+include LICENSE
+include README.md
+include go.mod
+include go.sum
+include *.go
+recursive-include cmd *.go
+recursive-include docs *.png
+recursive-include python/bridge *.go
+recursive-include python/build *.py
+recursive-include python/src *.py py.typed
+recursive-include python/tests *.py
+include test/data.json
+prune build
+prune dist
+global-exclude *.py[cod]
+global-exclude __pycache__

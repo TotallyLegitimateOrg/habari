@@ -3,3 +3,13 @@
 js/main.go
 Makefile
 bin/
+/build/
+/dist/
+*.egg-info/
+/.pytest_cache/
+.ruff_cache/
+/.venv/
+/uv.lock
+__pycache__/
+*.pyc
+python/src/habari/_native/

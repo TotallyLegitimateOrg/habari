@@ -8,6 +8,30 @@
 
 # Use
 
+## Python
+
+Install the Python package:
+
+```sh
+uv add habari-python --index habari=https://totallylegitimateorg.github.io/habari/packages/
+```
+
+Then import `habari` and parse filenames with the Go parser through the bundled native library:
+
+```python
+import habari
+
+data = habari.parse("Hyouka (2012) S1-2 [BD 1080p HEVC OPUS] [Dual-Audio]")
+print(data.title)           # Hyouka
+print(data.formatted_title) # Hyouka (2012)
+print(data.year)            # 2012
+print(data.season_number)   # ["1", "2"]
+print(data.video_resolution) # 1080p
+print(data.to_dict())
+```
+
+## Go
+
 ```go
 package main
 
