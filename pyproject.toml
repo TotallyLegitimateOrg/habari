@@ -57,3 +57,6 @@ test-environment = { HABARI_TEST_INSTALLED_WHEEL = "1" }
 [tool.cibuildwheel.linux]
 before-all = "python {project}/python/build/install_go.py"
 environment = { PATH = "/usr/local/go/bin:$PATH" }
+
+[tool.cibuildwheel.macos]
+environment = { MACOSX_DEPLOYMENT_TARGET = "11.0" }
