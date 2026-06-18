@@ -8,7 +8,7 @@ from dataclasses import asdict, dataclass, field, fields
 from importlib.resources import as_file, files
 from pathlib import Path
 
-__version__ = "0.1.13"
+__version__ = "0.1.14"
 
 _NATIVE_LIBRARY_ENV = "HABARI_NATIVE_LIBRARY"
 _NATIVE_LIBRARY_NAMES = {

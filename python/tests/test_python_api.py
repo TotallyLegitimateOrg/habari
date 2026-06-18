@@ -124,7 +124,7 @@ def test_python_output_matches_go_cli_json(habari_module) -> None:
 
 
 def test_version_is_aligned_with_latest_go_tag(habari_module) -> None:
-    assert habari_module.__version__ == "0.1.13"
+    assert habari_module.__version__ == "0.1.14"
 
 
 def test_parse_rejects_invalid_filename_type(habari_module) -> None:
