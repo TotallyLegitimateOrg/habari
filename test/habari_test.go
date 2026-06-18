@@ -124,7 +124,7 @@ func assertMetadataEquals(t *testing.T, received interface{}, expected interface
 	switch expected.(type) {
 	case []string:
 		receivedStrings := received.([]string)
-		assert.ElementsMatchf(t, expected.([]string), receivedStrings, "Expected %s to be %s but got %s", kind, expected, received)
+		assert.Equalf(t, expected.([]string), receivedStrings, "Expected %s to be %s but got %s", kind, expected, received)
 		return
 	}
 
@@ -140,6 +140,7 @@ func getData() []*habari.Metadata {
 	defer file.Close()
 
 	decoder := json.NewDecoder(file)
+	decoder.DisallowUnknownFields()
 	var metadata []*habari.Metadata
 	if err := decoder.Decode(&metadata); err != nil {
 		log.Fatalf("Error decoding JSON: %s", err)

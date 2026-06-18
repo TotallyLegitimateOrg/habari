@@ -2,7 +2,6 @@ import json
 import os
 import subprocess
 import sys
-from collections import Counter
 from pathlib import Path
 
 import pytest
@@ -73,16 +72,19 @@ def fixture_data():
 
 
 def assert_metadata_matches(actual: dict[str, object], expected: dict[str, object]) -> None:
+    unknown_fields = set(expected) - METADATA_FIELDS
+    assert not unknown_fields
+
     expected = {
         key: value
         for key, value in expected.items()
-        if key in METADATA_FIELDS and value not in ("", [], None)
+        if value not in ("", [], None)
     }
     assert set(actual) == set(expected)
     for key, expected_value in expected.items():
         actual_value = actual[key]
         if key in LIST_FIELDS:
-            assert Counter(actual_value) == Counter(expected_value), key
+            assert actual_value == expected_value, key
         else:
             assert actual_value == expected_value, key
 

@@ -1215,9 +1215,6 @@
       "07"
     ],
     "file_extension": "mp4",
-    "other": [
-      "REMASTER"
-    ],
     "subtitles": [
       "Big5"
     ],
@@ -1768,7 +1765,6 @@
       "Dual Audio",
       "Vorbis"
     ],
-    "file_extension": null,
     "source": [
       "BD"
     ],
@@ -2999,8 +2995,8 @@
   {
     "year": "2012",
     "audio_term": [
-      "Dual-Audio",
-      "OPUS"
+      "OPUS",
+      "Dual-Audio"
     ],
     "file_name": "Hyouka (2012) [Season 1+OVA] [BD 1080p HEVC OPUS] [Dual-Audio]",
     "formatted_title": "Hyouka (2012)",
@@ -3022,8 +3018,8 @@
   {
     "year": "2012",
     "audio_term": [
-      "Dual-Audio",
-      "OPUS"
+      "OPUS",
+      "Dual-Audio"
     ],
     "file_name": "Hyouka (2012) S1-2 [BD 1080p HEVC OPUS] [Dual-Audio]",
     "formatted_title": "Hyouka (2012)",
@@ -3287,8 +3283,8 @@
     "release_group": "VARYG",
     "video_resolution": "1080p",
     "source": [
-      "WEB-DL",
-      "NF"
+      "NF",
+      "WEB-DL"
     ],
     "audio_term": [
       "AAC2.0"
